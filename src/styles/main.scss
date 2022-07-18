@@ -1,0 +1,23 @@
+@import "fonts";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ramona, "Open Sans", sans-serif;
+  color: #34333D;
+}
+body{
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+
+  &:visited{
+    color: black;
+  }
+}
+
+h1, h2, h3, h4, h5{
+  font-weight: 800;
+}
